@@ -1,0 +1,109 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #f3f4f6, #d6dbe0);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  
+  .create-post-container {
+    width: 500px; /* Fixed width */
+    height: 600px; /* Fixed height */
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  /* Header Styling */
+  .create-post-container h1 {
+    font-size: 26px;
+    color: #333;
+    margin-bottom: 15px;
+    background: linear-gradient(90deg, #0b61bc, #06468a);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  /* Form Styles */
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+  }
+  
+  /* Label styling */
+  form label {
+    font-weight: 600;
+    color: #444;
+    align-self: flex-start;
+    font-size: 14px;
+    margin-bottom: 3px;
+  }
+  
+  /* Input fields */
+  form input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #ddd;
+    border-radius: 6px;
+    transition: border-color 0.3s, transform 0.2s;
+  }
+  
+  
+  form input:focus {
+    border-color: #007bff;
+    outline: none;
+    transform: scale(1.02);
+  }
+  
+  /* Submit button */
+  button {
+    width: 100%;
+    padding: 12px;
+    font-size: 18px;
+    color: white;
+    background: linear-gradient(135deg, #007bff, #0056b3);
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 15px;
+    transition: all 0.3s ease;
+  }
+  
+  
+  button:hover {
+    background: linear-gradient(135deg, #0056b3, #003d82);
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 600px) {
+    .create-post-container {
+      width: 90%;
+      height: auto;
+      padding: 20px;
+    }
+  
+    form input {
+      font-size: 14px;
+      padding: 8px;
+    }
+  
+    button {
+      font-size: 16px;
+      padding: 10px;
+    }
+  }
+  
