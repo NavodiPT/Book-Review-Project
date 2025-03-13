@@ -22,8 +22,7 @@ export default function CreatePost() {
 
     try {
       const response = await axios.post(`http://localhost:5000/api/create`,form);
-      console.log("Response:"
-        ,response.data)
+      console.log("Response:",response.data)
       alert("Review created successfully");
       setForm({title: '', author: '', rating: '', review: '', date: ''});
     } catch (error) {

@@ -1,0 +1,73 @@
+  
+  .login-card {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    text-align: center;
+  }
+  
+  .login-card h1 {
+    color: #007bff;
+    margin-bottom: 20px;
+  }
+  
+  .login-card label {
+    display: block;
+    text-align: left;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #333;
+  }
+  
+  .login-card input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  .login-btn, .register-btn {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .login-btn {
+    background: #007bff;
+    color: white;
+    margin-top: 20px;
+  }
+  
+  .login-btn:hover {
+    background: #0056b3;
+  }
+  
+  .register-btn {
+    background: transparent;
+    color: #007bff;
+    border: 2px solid #007bff;
+    margin-top: 10px;
+  }
+  
+  .register-btn:hover {
+    background: #007bff;
+    color: white;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 400px) {
+    .login-card {
+      width: 90%;
+      padding: 20px;
+    }
+  }
+  
